@@ -1,0 +1,39 @@
+.main__container{
+    height: 100vh;
+    border: 3px solid blue;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.description__container{
+    border: 1px solid red;
+    width: 40%;
+}
+button{
+    width: 80%;
+}
+.cart{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+    
+
+}
+.main__container{
+    padding-top: 3rem;
+    /* margin-top: 20px; */
+}
+.image__container{
+width: 60%;
+height: 100%;
+overflow: hidden;
+}
+.image__container > img {
+/* width: 100%; */
+height: 100%;
+object-fit: contain;
+}
