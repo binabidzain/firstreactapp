@@ -32,12 +32,12 @@ function Header() {
                 </li>
                 <li className="nav-item">
                   <a
-                    className="nav-link disabled"
+                    className="nav-link "
                     href="#"
                     tabIndex="-1"
-                    aria-disabled="true"
+                    aria-disabled="false"
                   >
-                    Disabled
+                    Collection
                   </a>
                 </li>
               </ul>
